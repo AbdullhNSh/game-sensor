@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+
+        android:id="@+id/txtAnswer"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+
+    <Button
+
+        android:id="@+id/btnAdd"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="اضافة سؤال"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <TextView
+
+        android:id="@+id/txtNum"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="عدد الاسئلة"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+
+        android:id="@+id/btnPlay"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="ابدا"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <TextView
+        android:id="@+id/txtArray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp" />
+
+</LinearLayout>
